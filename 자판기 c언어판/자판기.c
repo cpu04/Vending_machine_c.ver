@@ -9,9 +9,9 @@ int main(void)
 		int abc = 0;
 
 		printf("금액을 입력해주세요. \n");
-		scanf("%d", &coin);
+		scanf_s("%d", &coin);
 		printf("음료를 선택해주세요. \n 1. 사과주스 : 500원 \n 2. 오렌지 주스 : 700원 \n 3. 포도 주스 : 1200원 \n");
-		scanf("%d", &ans);
+		scanf_s("%d", &ans);
 
 		switch (ans)
 		{
